@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <style>
+        p{
+            display: inline;
+            padding: 1%;
+            margin-block: 5%;
+        }
+    </style>
+</head>
+<body>
+    <h1>SIGN UP</h1>
+    <form action="login.html">
+        <p>Enter name:</p>
+        <p><input type="text" name="Enter your name" placeholder="Enter your name" required/></p>
+        <br>
+        <p>Enter your email ID:</p>
+        <p><input type="email" placeholder="Enter your email" required/></p>
+        <br>
+        <p>Enter password:</p>
+        <p><input type="password" placeholder="Enter your password" required/></p>
+        <br>
+        <p>Confirm password:</p>
+        <p><input type="password" placeholder="Confirm your password" required/></p>
+        <br>
+        <p>
+            <input type="radio" name="gender" value="male"/>Male
+            <input type="radio" name="gender" value="female"/>Female
+        </p>
+        <br>
+        <p>
+            Enter address:
+            <textarea rows="2"cols="20" required></textarea>
+        </p>
+        <br>
+        <p>
+            Select state:
+            <select>
+                <option value="Telangana">Telangana</option>
+                <option value="Andhrapradesh">Andhrapradesh</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Tamilnadu">Tamilnadu</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Odissa">Odissa</option>
+            </select>
+        </p>
+        <br>
+        <p>
+            <div class="b">
+                <button>Submit</button>
+            </div>
+        </p>
+    </form>
+</body>
+</html>
